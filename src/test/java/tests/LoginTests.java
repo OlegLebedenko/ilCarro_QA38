@@ -58,6 +58,7 @@ public class LoginTests extends TestBase{
     @AfterMethod
     public void postcondition(){
         app.getUser().click(By.xpath("//button[.='Ok']"));
+    //    app.getUser().click(By.xpath("//button[@type='button']"));
 
     }
 
