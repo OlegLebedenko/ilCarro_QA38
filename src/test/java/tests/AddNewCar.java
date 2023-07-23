@@ -1,16 +1,16 @@
+package tests;
+
 import models.Car;
 import models.User;
+import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import models.User;
-import org.openqa.selenium.By;
-import tests.TestBase;
 
 
 public class AddNewCar extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition(){
         if(app.getUser().isLogged() == false)
             app.getUser().login(
@@ -38,8 +38,14 @@ public class AddNewCar extends TestBase {
       app.getCar().openCarForm();
       app.getCar().fillCarForm(car);
       app.getUser().submitButtonType();
+        Assert.assertTrue(app.getCar().isElementPresent(By.xpath("//h1[.='Car added']")));
 
 
     }
+
+//    @AfterMethod
+//    public void postcondition(){
+//
+//    }
 
 }

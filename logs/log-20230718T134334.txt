@@ -1,0 +1,31 @@
+13:43:36 INFO  manager.ApplicationManager - Tests start on Chrome
+13:43:36 INFO  tests.TestBase - Method searchPositiveTest is started
+13:43:36 INFO  manager.WdListener - Start searching element ---> By.id: city
+13:43:37 INFO  manager.WdListener - Element with locator ---> By.id: city is found
+13:43:37 INFO  manager.WdListener - Start searching element ---> By.cssSelector: div.pac-item
+13:43:37 INFO  manager.WdListener - Element with locator ---> By.cssSelector: div.pac-item is found
+13:43:37 INFO  manager.WdListener - Start searching element ---> By.id: dates
+13:43:37 INFO  manager.WdListener - Element with locator ---> By.id: dates is found
+13:43:37 INFO  manager.WdListener - Start searching element ---> By.xpath: //div[.=' 18 ']
+13:43:37 INFO  manager.WdListener - Element with locator ---> By.xpath: //div[.=' 18 '] is found
+13:43:37 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@aria-label='Next month']
+13:43:37 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@aria-label='Next month'] is found
+13:43:38 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@aria-label='Next month']
+13:43:38 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@aria-label='Next month'] is found
+13:43:39 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@aria-label='Next month']
+13:43:39 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@aria-label='Next month'] is found
+13:43:40 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@aria-label='Next month']
+13:43:40 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@aria-label='Next month'] is found
+13:43:41 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@aria-label='Next month']
+13:43:41 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@aria-label='Next month'] is found
+13:43:43 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@aria-label='Next month']
+13:43:43 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@aria-label='Next month'] is found
+13:43:44 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@aria-label='Next month']
+13:43:44 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@aria-label='Next month'] is found
+13:43:45 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@aria-label='Next month']
+13:43:45 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@aria-label='Next month'] is found
+13:43:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //div[.=' 23 ']
+13:43:46 INFO  manager.WdListener - Element with locator ---> By.xpath: //div[.=' 23 '] is found
+13:43:49 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+13:43:49 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+13:43:49 INFO  tests.TestBase - ================================================================

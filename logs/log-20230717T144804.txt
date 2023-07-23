@@ -1,0 +1,27 @@
+14:48:06 INFO  manager.ApplicationManager - Tests start on Chrome
+14:48:07 INFO  tests.TestBase - Method searchPositiveTest is started
+14:48:07 INFO  manager.WdListener - Start searching element ---> By.id: city
+14:48:07 INFO  manager.WdListener - Element with locator ---> By.id: city is found
+14:48:07 INFO  manager.WdListener - Start searching element ---> By.cssSelector: div.pac-item
+14:48:07 INFO  manager.WdListener - Element with locator ---> By.cssSelector: div.pac-item is found
+14:48:08 INFO  manager.WdListener - Start searching element ---> By.id: dates
+14:48:08 INFO  manager.WdListener - Element with locator ---> By.id: dates is found
+14:48:08 INFO  manager.WdListener - Start searching element ---> By.id: city
+14:48:08 INFO  manager.WdListener - Element with locator ---> By.id: city is found
+14:48:09 INFO  manager.WdListener - Something went wrong!
+14:48:09 INFO  manager.WdListener - element click intercepted: Element <input _ngcontent-ipk-c106="" formcontrolname="city" id="city" placeholder="" type="text" ng-reflect-name="city" ng-reflect-label="[object HTMLLabelElement]" class="ng-invalid pac-target-input ng-dirty ng-touched" autocomplete="off"> is not clickable at point (203, 318). Other element would receive the click: <div class="mat-calendar-body-cell-content">...</div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.68.54', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb23c4d603c045c420dc3e95e213d2fd
+14:48:09 INFO  manager.WdListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-ipk-c106="" formcontrolname="city" id="city" placeholder="" type="text" ng-reflect-name="city" ng-reflect-label="[object HTMLLabelElement]" class="ng-invalid pac-target-input ng-dirty ng-touched" autocomplete="off"> is not clickable at point (203, 318). Other element would receive the click: <div class="mat-calendar-body-cell-content">...</div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.68.54', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb23c4d603c045c420dc3e95e213d2fd
+14:48:09 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-2889.png
+14:48:09 INFO  tests.TestBase - ================================================================

@@ -1,0 +1,4 @@
+20:56:39 INFO  tests.TestBase - openRegistrationForm invoked
+20:56:39 INFO  tests.TestBase - fillRegistrationForm invoked
+20:56:39 INFO  tests.TestBase - submitButton invoked
+20:56:39 INFO  tests.TestBase - registrationPositive starts with credentials : vova3398@mail.com Volk1234$

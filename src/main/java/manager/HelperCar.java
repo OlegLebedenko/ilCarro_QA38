@@ -1,8 +1,8 @@
 package manager;
 
 import models.Car;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -30,7 +30,8 @@ public class HelperCar extends HelperBase {
         select(By.id("fuel"), car.getFuel());
         type(By.id("seats"), car.getSeats());
         type(By.id("class"), car.getCarClass());
-        type(By.id("serialNumber"), car.getCarRegNumber());
+       typeRegNumber(car.getCarRegNumber());
+    //   type(By.id("serialNumber"), car.getCarRegNumber());
         type(By.id("price"), car.getPrice());
         type(By.id("about"), car.getAbout());
 
@@ -45,6 +46,19 @@ public class HelperCar extends HelperBase {
     public void select(By locator, String option){
 
         new Select(wd.findElement(locator)).selectByValue(option);
+    }
+
+
+
+
+    public void typeRegNumber(String regNumber){
+
+        WebElement element = wd.findElement(By.cssSelector("#serialNumber"));
+
+        Actions actions = new Actions(wd);
+        actions.moveToElement(element).click().perform();
+        element.sendKeys(regNumber);
+
     }
 
     public boolean isCarFormPresent() {

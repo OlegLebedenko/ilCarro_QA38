@@ -1,0 +1,17 @@
+15:05:52 INFO  manager.ApplicationManager - Tests start on Chrome
+15:05:53 INFO  tests.TestBase - Method loginPositiveTestProps is started
+15:05:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+15:05:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+15:05:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+15:05:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+15:05:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+15:05:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+15:05:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+15:05:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+15:05:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+15:05:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+15:06:03 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[.='Logged in success']
+15:06:03 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[.='Logged in success'] is found
+15:06:03 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+15:06:03 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+15:06:03 INFO  tests.TestBase - ================================================================

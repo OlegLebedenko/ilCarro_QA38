@@ -1,0 +1,1 @@
+23:28:45 INFO  tests.TestBase - registrationPositive starts with credentials : vova1724@mail.com Volk1234$

@@ -1,0 +1,3 @@
+14:45:17 INFO  manager.ApplicationManager - Tests start on Chrome
+14:45:18 INFO  tests.TestBase - Method searchPositiveTest is started
+14:45:18 INFO  tests.TestBase - ================================================================

@@ -1,0 +1,47 @@
+16:10:41 INFO  manager.ApplicationManager - Tests start on Chrome
+16:10:42 INFO  tests.TestBase - Method addNewCarPositive is started
+16:10:42 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+16:10:47 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+16:10:47 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+16:10:47 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+16:10:47 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+16:10:47 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+16:10:47 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+16:10:47 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+16:10:48 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+16:10:48 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+16:10:48 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+16:10:49 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+16:10:54 INFO  manager.WdListener - Start searching element ---> By.xpath: //*[.=' Let the car work ']
+16:10:54 INFO  manager.WdListener - Element with locator ---> By.xpath: //*[.=' Let the car work '] is found
+16:10:54 INFO  manager.WdListener - Start searching element ---> By.cssSelector: h2
+16:10:54 INFO  manager.WdListener - Element with locator ---> By.cssSelector: h2 is found
+16:10:54 INFO  manager.WdListener - Start searching element ---> By.id: pickUpPlace
+16:10:54 INFO  manager.WdListener - Element with locator ---> By.id: pickUpPlace is found
+16:10:54 INFO  manager.WdListener - Start searching element ---> By.cssSelector: div.pac-item
+16:10:54 INFO  manager.WdListener - Element with locator ---> By.cssSelector: div.pac-item is found
+16:10:54 INFO  manager.WdListener - Start searching element ---> By.id: make
+16:10:54 INFO  manager.WdListener - Element with locator ---> By.id: make is found
+16:10:54 INFO  manager.WdListener - Start searching element ---> By.id: model
+16:10:54 INFO  manager.WdListener - Element with locator ---> By.id: model is found
+16:10:54 INFO  manager.WdListener - Start searching element ---> By.id: year
+16:10:54 INFO  manager.WdListener - Element with locator ---> By.id: year is found
+16:10:55 INFO  manager.WdListener - Start searching element ---> By.id: fuel
+16:10:55 INFO  manager.WdListener - Element with locator ---> By.id: fuel is found
+16:10:55 INFO  manager.WdListener - Start searching element ---> By.xpath: .//option[@value = "Petrol"]
+16:10:55 INFO  manager.WdListener - Element with locator ---> By.xpath: .//option[@value = "Petrol"] is found
+16:10:55 INFO  manager.WdListener - Start searching element ---> By.id: seats
+16:10:55 INFO  manager.WdListener - Element with locator ---> By.id: seats is found
+16:10:55 INFO  manager.WdListener - Start searching element ---> By.id: class
+16:10:55 INFO  manager.WdListener - Element with locator ---> By.id: class is found
+16:10:55 INFO  manager.WdListener - Start searching element ---> By.cssSelector: #serialNumber
+16:10:55 INFO  manager.WdListener - Element with locator ---> By.cssSelector: #serialNumber is found
+16:10:55 INFO  manager.WdListener - Start searching element ---> By.id: price
+16:10:55 INFO  manager.WdListener - Element with locator ---> By.id: price is found
+16:10:55 INFO  manager.WdListener - Start searching element ---> By.id: about
+16:10:55 INFO  manager.WdListener - Element with locator ---> By.id: about is found
+16:10:55 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+16:10:55 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+16:10:55 INFO  manager.WdListener - Start searching element ---> By.xpath: //h1[.='Car added']
+16:10:56 INFO  manager.WdListener - Element with locator ---> By.xpath: //h1[.='Car added'] is found
+16:10:56 INFO  tests.TestBase - ================================================================
