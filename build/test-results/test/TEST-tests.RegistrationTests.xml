@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-07-26T01:38:06" hostname="DESKTOP-0SQU6JC" time="39.361">
+  <properties/>
+  <testcase name="registrationNegativeLastNameBlank" classname="tests.RegistrationTests" time="1.806"/>
+  <testcase name="registrationNegativeNameBlank" classname="tests.RegistrationTests" time="0.64"/>
+  <testcase name="registrationNegativeWrongEmail" classname="tests.RegistrationTests" time="0.419"/>
+  <testcase name="registrationNegativeWrongPassword" classname="tests.RegistrationTests" time="0.434"/>
+  <testcase name="registrationPositive" classname="tests.RegistrationTests" time="0.828"/>
+  <testcase name="registrationPositiveDTO[0](models.User@1358b28e)" classname="tests.RegistrationTests" time="0.882"/>
+  <testcase name="registrationPositiveDTO[1](models.User@7c2327fa)" classname="tests.RegistrationTests" time="0.704"/>
+  <testcase name="registrationPositiveDTO[2](models.User@5c92166b)" classname="tests.RegistrationTests" time="0.87"/>
+  <testcase name="registrationPositiveDTO[3](models.User@3b7b05a8)" classname="tests.RegistrationTests" time="0.935"/>
+  <testcase name="registrationPositiveDTO[4](models.User@67b7c170)" classname="tests.RegistrationTests" time="0.689"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

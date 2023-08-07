@@ -1,0 +1,25 @@
+15:03:43 INFO  manager.ApplicationManager - Tests start on Chrome
+15:03:47 INFO  tests.TestBase - Method registrationNegativeWrongPassword is started
+15:03:47 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+15:03:52 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+15:03:52 INFO  manager.TestNgListener - Test registrationNegativeWrongPassword started
+15:03:52 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+15:03:52 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+15:03:52 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+15:03:52 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+15:03:52 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+15:03:52 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+15:03:52 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+15:03:52 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+15:03:52 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+15:03:52 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+15:03:52 INFO  manager.WdListener - Start searching element ---> By.cssSelector: div.checkbox-container
+15:03:52 INFO  manager.WdListener - Element with locator ---> By.cssSelector: div.checkbox-container is found
+15:03:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+15:03:53 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+15:03:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //div[contains(text(),'Password must')]
+15:03:53 INFO  manager.WdListener - Element with locator ---> By.xpath: //div[contains(text(),'Password must')] is found
+15:03:53 INFO  manager.TestNgListener - Test registrationNegativeWrongPassword successful
+15:03:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+15:03:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+15:03:58 INFO  tests.TestBase - ================================================================

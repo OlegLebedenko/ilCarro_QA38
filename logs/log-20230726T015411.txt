@@ -1,0 +1,50 @@
+01:54:12 INFO  manager.ApplicationManager - Tests start on Chrome
+01:54:14 INFO  tests.TestBase - Method registrationNegativeLastNameBlank is started
+01:54:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:54:19 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:54:19 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank started
+01:54:19 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+01:54:19 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+01:54:19 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+01:54:19 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+01:54:19 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+01:54:19 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+01:54:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:54:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:54:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:54:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:54:20 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+01:54:20 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+01:54:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:54:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:54:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //h1[contains(text(),'failed')]
+01:54:21 INFO  manager.WdListener - Element with locator ---> By.xpath: //h1[contains(text(),'failed')] is found
+01:54:21 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank successful
+01:54:21 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:54:21 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:54:21 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:54:21 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:54:21 INFO  tests.TestBase - ================================================================
+01:54:21 INFO  manager.WdListener - Start searching element ---> By.xpath: //div[@class='ng-dirty ng-touched ng-valid'
+01:54:21 INFO  manager.WdListener - Something went wrong!
+01:54:21 INFO  manager.WdListener - invalid selector: Unable to locate an element with the xpath expression //div[@class='ng-dirty ng-touched ng-valid' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='ng-dirty ng-touched ng-valid'' is not a valid XPath expression.
+  (Session info: chrome=115.0.5790.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f58ced0a402b58dc52c1d53f3e9ce272
+*** Element info: {Using=xpath, value=//div[@class='ng-dirty ng-touched ng-valid'}
+01:54:21 INFO  manager.WdListener - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='ng-dirty ng-touched ng-valid' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='ng-dirty ng-touched ng-valid'' is not a valid XPath expression.
+  (Session info: chrome=115.0.5790.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f58ced0a402b58dc52c1d53f3e9ce272
+*** Element info: {Using=xpath, value=//div[@class='ng-dirty ng-touched ng-valid'}
+01:54:22 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3261.png

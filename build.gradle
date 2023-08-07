@@ -37,7 +37,13 @@ task mytest(type: Test){
         }else if(suite.equals('add')){
             suites 'src/test/resources/add.xml'
 
-        }else{
+        }else if(suite.equals('search')){
+            suites 'src/test/resources/search.xml'
+
+        }else if(suite.equals('positive')){
+            suites 'src/test/resources/positive.xml'
+
+        } else {
             suites 'src/test/resources/testng.xml'
         }
 

@@ -39,7 +39,7 @@ public class LoginTests extends TestBase{
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//h2[.='Logged in success']")));
 
     }
-    @Test
+    @Test(groups = {"positive"})
     public void loginPositiveTestTwo() {
   //     User user = new User();
         User user = new User()
@@ -52,7 +52,8 @@ public class LoginTests extends TestBase{
         app.getUser().pause(5000);
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//h2[.='Logged in success']")));
 
-    } @Test
+    }
+    @Test(groups = {"regress", "positive"})
     public void loginPositiveTestThree() {
   //     User user = new User();
         User user = new User()

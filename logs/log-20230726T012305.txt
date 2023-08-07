@@ -1,0 +1,25 @@
+01:23:07 INFO  manager.ApplicationManager - Tests start on Chrome
+01:23:10 INFO  tests.TestBase - Method registrationNegativeWrongEmail is started
+01:23:10 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:23:15 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:23:15 INFO  manager.TestNgListener - Test registrationNegativeWrongEmail started
+01:23:15 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+01:23:15 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+01:23:15 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+01:23:15 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+01:23:15 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+01:23:15 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+01:23:15 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:23:15 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:23:15 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:23:15 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:23:16 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+01:23:16 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+01:23:16 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:23:16 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:23:16 INFO  manager.WdListener - Start searching element ---> By.xpath: //div[.='Wrong email format']
+01:23:16 INFO  manager.WdListener - Element with locator ---> By.xpath: //div[.='Wrong email format'] is found
+01:23:16 INFO  manager.TestNgListener - Test registrationNegativeWrongEmail successful
+01:23:16 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:23:21 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:23:21 INFO  tests.TestBase - ================================================================

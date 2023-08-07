@@ -1,0 +1,333 @@
+04:39:31 INFO  manager.ApplicationManager - Tests start on Chrome
+04:39:33 INFO  tests.TestBase - Method registrationNegativeLastNameBlank is started
+04:39:33 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+04:39:38 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+04:39:38 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank started
+04:39:38 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+04:39:38 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+04:39:38 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+04:39:39 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+04:39:39 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+04:39:39 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+04:39:39 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+04:39:39 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+04:39:39 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+04:39:39 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+04:39:39 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+04:39:39 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+04:39:39 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+04:39:39 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+04:39:39 INFO  manager.WdListener - Start searching element ---> By.xpath: //h1[contains(text(),'failed')]
+04:39:40 INFO  manager.WdListener - Element with locator ---> By.xpath: //h1[contains(text(),'failed')] is found
+04:39:40 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank successful
+04:39:40 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+04:39:40 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+04:39:40 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+04:39:40 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+04:39:40 INFO  tests.TestBase - ================================================================
+04:39:40 INFO  tests.TestBase - Method registrationNegativeNameBlank is started
+04:39:40 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+04:39:45 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+04:39:45 INFO  manager.TestNgListener - Test registrationNegativeNameBlank started
+04:39:45 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+04:39:45 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+04:39:45 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+04:39:45 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+04:39:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+04:39:46 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+04:39:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+04:39:46 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+04:39:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+04:39:46 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+04:39:46 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+04:39:46 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+04:39:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+04:39:46 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+04:39:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //h1[contains(text(),'failed')]
+04:39:51 INFO  manager.WdListener - Element with locator ---> By.xpath: //h1[contains(text(),'failed')] is found
+04:39:51 INFO  manager.TestNgListener - Test registrationNegativeNameBlank failed : java.lang.AssertionError: expected [true] but found [false]
+04:39:51 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+04:39:56 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+04:39:56 INFO  tests.TestBase - ================================================================
+04:39:56 INFO  tests.TestBase - Method registrationNegativeWrongEmail is started
+04:39:56 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+04:40:01 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+04:40:01 INFO  manager.TestNgListener - Test registrationNegativeWrongEmail started
+04:40:01 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+04:40:01 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+04:40:01 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+04:40:01 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+04:40:01 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+04:40:01 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+04:40:01 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+04:40:01 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+04:40:01 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+04:40:01 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+04:40:02 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+04:40:02 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+04:40:02 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+04:40:02 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+04:40:02 INFO  manager.WdListener - Start searching element ---> By.xpath: //div[.='Wrong email format']
+04:40:02 INFO  manager.WdListener - Element with locator ---> By.xpath: //div[.='Wrong email format'] is found
+04:40:02 INFO  manager.TestNgListener - Test registrationNegativeWrongEmail successful
+04:40:02 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+04:40:07 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+04:40:07 INFO  tests.TestBase - ================================================================
+04:40:07 INFO  tests.TestBase - Method registrationNegativeWrongPassword is started
+04:40:07 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+04:40:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+04:40:12 INFO  manager.TestNgListener - Test registrationNegativeWrongPassword started
+04:40:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+04:40:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+04:40:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+04:40:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+04:40:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+04:40:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+04:40:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+04:40:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+04:40:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+04:40:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+04:40:12 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+04:40:12 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+04:40:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+04:40:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+04:40:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //div[contains(text(),'Password must')]
+04:40:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //div[contains(text(),'Password must')] is found
+04:40:12 INFO  manager.TestNgListener - Test registrationNegativeWrongPassword successful
+04:40:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+04:40:17 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+04:40:17 INFO  tests.TestBase - ================================================================
+04:40:17 INFO  tests.TestBase - Method registrationPositive is started
+04:40:17 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+04:40:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+04:40:22 INFO  manager.TestNgListener - Test registrationPositive started
+04:40:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+04:40:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+04:40:22 INFO  tests.TestBase - openRegistrationForm invoked
+04:40:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+04:40:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+04:40:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+04:40:23 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+04:40:23 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+04:40:23 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+04:40:23 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+04:40:23 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+04:40:23 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+04:40:23 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+04:40:23 INFO  tests.TestBase - fillRegistrationForm invoked
+04:40:23 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+04:40:23 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+04:40:23 INFO  tests.TestBase - submitButton invoked
+04:40:23 INFO  tests.TestBase - registrationPositive starts with credentials : vova2422@mail.com Volk1234$
+04:40:23 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[contains(text(),'success')]
+04:40:23 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[contains(text(),'success')] is found
+04:40:23 INFO  manager.TestNgListener - Test registrationPositive successful
+04:40:23 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+04:40:23 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+04:40:23 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+04:40:23 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+04:40:23 INFO  tests.TestBase - ================================================================
+04:40:23 INFO  tests.TestBase - Method registrationPositiveDTO is started
+04:40:23 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+04:40:23 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+04:40:23 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+04:40:23 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+04:40:23 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+04:40:23 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+04:40:23 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+04:40:23 INFO  tests.TestBase - openRegistrationForm invoked
+04:40:23 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+04:40:23 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+04:40:24 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+04:40:24 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+04:40:24 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+04:40:24 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+04:40:24 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+04:40:24 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+04:40:24 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+04:40:24 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+04:40:24 INFO  tests.TestBase - fillRegistrationForm invoked
+04:40:24 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+04:40:24 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+04:40:24 INFO  tests.TestBase - submitButton invoked
+04:40:24 INFO  tests.TestBase - registrationPositive starts with credentials : mary1234@mail.com Mara3456$1
+04:40:24 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[contains(text(),'success')]
+04:40:29 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[contains(text(),'success')] is found
+04:40:29 INFO  manager.TestNgListener - Test registrationPositiveDTO failed : java.lang.AssertionError: expected [true] but found [false]
+04:40:29 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+04:40:29 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+04:40:29 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+04:40:29 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+04:40:29 INFO  tests.TestBase - ================================================================
+04:40:29 INFO  tests.TestBase - Method registrationPositiveDTO is started
+04:40:29 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+04:40:29 INFO  manager.WdListener - Something went wrong!
+04:40:29 INFO  manager.WdListener - disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//a[.=' Logout ']}
+04:40:29 INFO  manager.WdListener - org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//a[.=' Logout ']}
+04:40:29 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+04:40:29 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+04:40:29 INFO  manager.WdListener - Something went wrong!
+04:40:29 INFO  manager.WdListener - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+04:40:29 INFO  manager.WdListener - org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+04:40:29 INFO  tests.TestBase - ================================================================
+04:40:29 INFO  tests.TestBase - Method registrationPositiveDTO is started
+04:40:29 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+04:40:29 INFO  manager.WdListener - Something went wrong!
+04:40:29 INFO  manager.WdListener - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//a[.=' Logout ']}
+04:40:29 INFO  manager.WdListener - org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//a[.=' Logout ']}
+04:40:29 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+04:40:29 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+04:40:29 INFO  manager.WdListener - Something went wrong!
+04:40:29 INFO  manager.WdListener - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+04:40:29 INFO  manager.WdListener - org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+04:40:29 INFO  tests.TestBase - ================================================================
+04:40:29 INFO  tests.TestBase - Method registrationPositiveDTO is started
+04:40:29 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+04:40:29 INFO  manager.WdListener - Something went wrong!
+04:40:29 INFO  manager.WdListener - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//a[.=' Logout ']}
+04:40:29 INFO  manager.WdListener - org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//a[.=' Logout ']}
+04:40:29 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+04:40:29 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+04:40:30 INFO  manager.WdListener - Something went wrong!
+04:40:30 INFO  manager.WdListener - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+04:40:30 INFO  manager.WdListener - org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+04:40:30 INFO  tests.TestBase - ================================================================
+04:40:30 INFO  tests.TestBase - Method registrationPositiveDTO is started
+04:40:30 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+04:40:30 INFO  manager.WdListener - Something went wrong!
+04:40:30 INFO  manager.WdListener - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//a[.=' Logout ']}
+04:40:30 INFO  manager.WdListener - org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//a[.=' Logout ']}
+04:40:30 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+04:40:30 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+04:40:30 INFO  manager.WdListener - Something went wrong!
+04:40:30 INFO  manager.WdListener - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+04:40:30 INFO  manager.WdListener - org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=115.0.5790.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22e4eed2e02b90f92e2e80477a5a1956
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+04:40:30 INFO  tests.TestBase - ================================================================

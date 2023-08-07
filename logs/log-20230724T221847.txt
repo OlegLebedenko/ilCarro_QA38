@@ -1,0 +1,21 @@
+22:18:49 INFO  manager.ApplicationManager - Tests start on Chrome
+22:18:51 INFO  tests.TestBase - Method registrationNegativeWrongPassword is started
+22:18:51 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+22:18:56 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+22:18:56 INFO  manager.TestNgListener - Test registrationNegativeWrongPassword started
+22:18:56 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+22:18:56 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+22:18:56 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+22:18:56 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+22:18:56 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+22:18:56 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+22:18:56 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+22:18:56 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+22:18:56 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+22:18:56 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+22:18:56 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+22:18:56 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+22:18:56 INFO  manager.TestNgListener - Test registrationNegativeWrongPassword successful
+22:18:56 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+22:19:01 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+22:19:01 INFO  tests.TestBase - ================================================================

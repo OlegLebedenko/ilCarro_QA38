@@ -1,0 +1,774 @@
+01:57:24 INFO  manager.ApplicationManager - Tests start on Chrome
+01:57:28 INFO  tests.TestBase - Method addNewCarPositive is started
+01:57:28 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:57:33 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:57:33 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+01:57:33 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+01:57:33 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:57:33 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:57:33 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:57:33 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:57:33 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:57:33 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:57:33 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:57:34 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:57:34 INFO  manager.TestNgListener - Test addNewCarPositive started
+01:57:39 INFO  manager.WdListener - Start searching element ---> By.xpath: //*[.=' Let the car work ']
+01:57:39 INFO  manager.WdListener - Element with locator ---> By.xpath: //*[.=' Let the car work '] is found
+01:57:39 INFO  manager.WdListener - Start searching element ---> By.cssSelector: h2
+01:57:39 INFO  manager.WdListener - Element with locator ---> By.cssSelector: h2 is found
+01:57:39 INFO  manager.WdListener - Start searching element ---> By.id: pickUpPlace
+01:57:39 INFO  manager.WdListener - Element with locator ---> By.id: pickUpPlace is found
+01:57:39 INFO  manager.WdListener - Start searching element ---> By.cssSelector: div.pac-item
+01:57:40 INFO  manager.WdListener - Element with locator ---> By.cssSelector: div.pac-item is found
+01:57:40 INFO  manager.WdListener - Start searching element ---> By.id: make
+01:57:40 INFO  manager.WdListener - Element with locator ---> By.id: make is found
+01:57:41 INFO  manager.WdListener - Start searching element ---> By.id: model
+01:57:41 INFO  manager.WdListener - Element with locator ---> By.id: model is found
+01:57:41 INFO  manager.WdListener - Start searching element ---> By.id: year
+01:57:41 INFO  manager.WdListener - Element with locator ---> By.id: year is found
+01:57:41 INFO  manager.WdListener - Start searching element ---> By.id: fuel
+01:57:41 INFO  manager.WdListener - Element with locator ---> By.id: fuel is found
+01:57:41 INFO  manager.WdListener - Start searching element ---> By.xpath: .//option[@value = "Petrol"]
+01:57:41 INFO  manager.WdListener - Element with locator ---> By.xpath: .//option[@value = "Petrol"] is found
+01:57:41 INFO  manager.WdListener - Start searching element ---> By.id: seats
+01:57:41 INFO  manager.WdListener - Element with locator ---> By.id: seats is found
+01:57:41 INFO  manager.WdListener - Start searching element ---> By.id: class
+01:57:41 INFO  manager.WdListener - Element with locator ---> By.id: class is found
+01:57:41 INFO  manager.WdListener - Start searching element ---> By.cssSelector: #serialNumber
+01:57:41 INFO  manager.WdListener - Element with locator ---> By.cssSelector: #serialNumber is found
+01:57:41 INFO  manager.WdListener - Start searching element ---> By.id: price
+01:57:41 INFO  manager.WdListener - Element with locator ---> By.id: price is found
+01:57:41 INFO  manager.WdListener - Start searching element ---> By.id: about
+01:57:41 INFO  manager.WdListener - Element with locator ---> By.id: about is found
+01:57:41 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:57:41 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:57:41 INFO  manager.WdListener - Start searching element ---> By.xpath: //h1[.='Car added']
+01:57:42 INFO  manager.WdListener - Element with locator ---> By.xpath: //h1[.='Car added'] is found
+01:57:42 INFO  manager.TestNgListener - Test addNewCarPositive successful
+01:57:42 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='button']
+01:57:42 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='button'] is found
+01:57:42 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:57:42 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:57:42 INFO  tests.TestBase - ================================================================
+01:57:42 INFO  tests.TestBase - Method loginPositiveTest is started
+01:57:42 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:57:47 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:57:47 INFO  manager.TestNgListener - Test loginPositiveTest started
+01:57:47 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+01:57:47 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+01:57:47 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:57:47 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:57:47 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:57:47 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:57:47 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:57:48 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:57:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[.='Logged in success']
+01:57:53 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[.='Logged in success'] is found
+01:57:53 INFO  manager.TestNgListener - Test loginPositiveTest successful
+01:57:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:57:53 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:57:53 INFO  tests.TestBase - ================================================================
+01:57:53 INFO  tests.TestBase - Method loginPositiveTestProps is started
+01:57:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:57:53 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:57:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:57:53 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:57:53 INFO  manager.TestNgListener - Test loginPositiveTestProps started
+01:57:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+01:57:53 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+01:57:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:57:53 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:57:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:57:53 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:57:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:57:53 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:57:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[.='Logged in success']
+01:57:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[.='Logged in success'] is found
+01:57:58 INFO  manager.TestNgListener - Test loginPositiveTestProps successful
+01:57:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:57:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:57:58 INFO  tests.TestBase - ================================================================
+01:57:58 INFO  tests.TestBase - Method loginPositiveTestThree is started
+01:57:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:57:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:57:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:57:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:57:58 INFO  manager.TestNgListener - Test loginPositiveTestThree started
+01:57:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+01:57:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+01:57:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:57:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:57:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:57:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:57:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:57:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:58:03 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[.='Logged in success']
+01:58:03 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[.='Logged in success'] is found
+01:58:03 INFO  manager.TestNgListener - Test loginPositiveTestThree successful
+01:58:03 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:58:03 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:58:03 INFO  tests.TestBase - ================================================================
+01:58:03 INFO  tests.TestBase - Method loginPositiveTestThreeDTO is started
+01:58:03 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:03 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:03 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:03 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:04 INFO  manager.TestNgListener - Test loginPositiveTestThreeDTO started
+01:58:04 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+01:58:04 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+01:58:04 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:58:04 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:58:04 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:58:04 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:58:04 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:58:04 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:58:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[.='Logged in success']
+01:58:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[.='Logged in success'] is found
+01:58:09 INFO  manager.TestNgListener - Test loginPositiveTestThreeDTO successful
+01:58:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:58:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:58:09 INFO  tests.TestBase - ================================================================
+01:58:09 INFO  tests.TestBase - Method loginPositiveTestThreeDTO is started
+01:58:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:09 INFO  manager.TestNgListener - Test loginPositiveTestThreeDTO started
+01:58:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+01:58:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+01:58:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:58:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:58:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:58:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:58:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:58:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:58:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[.='Logged in success']
+01:58:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[.='Logged in success'] is found
+01:58:14 INFO  manager.TestNgListener - Test loginPositiveTestThreeDTO successful
+01:58:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:58:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:58:14 INFO  tests.TestBase - ================================================================
+01:58:14 INFO  tests.TestBase - Method loginPositiveTestThreeDTO is started
+01:58:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:14 INFO  manager.TestNgListener - Test loginPositiveTestThreeDTO started
+01:58:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+01:58:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+01:58:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:58:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:58:15 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:58:15 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:58:15 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:58:15 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:58:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[.='Logged in success']
+01:58:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[.='Logged in success'] is found
+01:58:20 INFO  manager.TestNgListener - Test loginPositiveTestThreeDTO successful
+01:58:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:58:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:58:20 INFO  tests.TestBase - ================================================================
+01:58:20 INFO  tests.TestBase - Method loginPositiveTestThreeDTO is started
+01:58:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:20 INFO  manager.TestNgListener - Test loginPositiveTestThreeDTO started
+01:58:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+01:58:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+01:58:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:58:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:58:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:58:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:58:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:58:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:58:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[.='Logged in success']
+01:58:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[.='Logged in success'] is found
+01:58:25 INFO  manager.TestNgListener - Test loginPositiveTestThreeDTO successful
+01:58:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:58:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:58:25 INFO  tests.TestBase - ================================================================
+01:58:25 INFO  tests.TestBase - Method loginPositiveTestTwo is started
+01:58:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:25 INFO  manager.TestNgListener - Test loginPositiveTestTwo started
+01:58:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+01:58:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+01:58:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:58:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:58:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:58:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:58:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:58:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:58:30 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[.='Logged in success']
+01:58:30 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[.='Logged in success'] is found
+01:58:30 INFO  manager.TestNgListener - Test loginPositiveTestTwo successful
+01:58:30 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:58:30 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:58:31 INFO  tests.TestBase - ================================================================
+01:58:31 INFO  tests.TestBase - Method registrationNegativeLastNameBlank is started
+01:58:31 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:31 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:31 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:31 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:31 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank started
+01:58:31 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+01:58:31 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+01:58:31 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+01:58:31 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+01:58:31 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+01:58:31 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+01:58:31 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:58:31 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:58:31 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:58:31 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:58:31 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+01:58:31 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+01:58:31 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:58:31 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:58:31 INFO  manager.WdListener - Start searching element ---> By.xpath: //h1[contains(text(),'failed')]
+01:58:32 INFO  manager.WdListener - Element with locator ---> By.xpath: //h1[contains(text(),'failed')] is found
+01:58:32 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank successful
+01:58:32 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:58:32 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:58:32 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:58:32 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:58:32 INFO  tests.TestBase - ================================================================
+01:58:32 INFO  tests.TestBase - Method registrationNegativeNameBlank is started
+01:58:32 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:37 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:37 INFO  manager.TestNgListener - Test registrationNegativeNameBlank started
+01:58:37 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+01:58:37 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+01:58:37 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+01:58:37 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+01:58:37 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+01:58:37 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+01:58:37 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:58:37 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:58:37 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:58:37 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:58:37 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+01:58:37 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+01:58:37 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:58:37 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:58:37 INFO  manager.TestNgListener - Test registrationNegativeNameBlank successful
+01:58:37 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:58:42 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:58:42 INFO  tests.TestBase - ================================================================
+01:58:42 INFO  tests.TestBase - Method registrationNegativeWrongEmail is started
+01:58:42 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:47 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:47 INFO  manager.TestNgListener - Test registrationNegativeWrongEmail started
+01:58:47 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+01:58:47 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+01:58:47 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+01:58:47 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+01:58:47 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+01:58:47 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+01:58:48 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:58:48 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:58:48 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:58:48 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:58:48 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+01:58:48 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+01:58:48 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:58:48 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:58:48 INFO  manager.WdListener - Start searching element ---> By.xpath: //div[.='Wrong email format']
+01:58:48 INFO  manager.WdListener - Element with locator ---> By.xpath: //div[.='Wrong email format'] is found
+01:58:48 INFO  manager.TestNgListener - Test registrationNegativeWrongEmail successful
+01:58:48 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:58:53 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:58:53 INFO  tests.TestBase - ================================================================
+01:58:53 INFO  tests.TestBase - Method registrationNegativeWrongPassword is started
+01:58:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:58:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:58:58 INFO  manager.TestNgListener - Test registrationNegativeWrongPassword started
+01:58:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+01:58:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+01:58:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+01:58:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+01:58:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+01:58:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+01:58:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:58:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:58:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:58:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:58:58 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+01:58:58 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+01:58:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:58:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:58:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //div[contains(text(),'Password must')]
+01:58:58 INFO  manager.WdListener - Element with locator ---> By.xpath: //div[contains(text(),'Password must')] is found
+01:58:58 INFO  manager.TestNgListener - Test registrationNegativeWrongPassword successful
+01:58:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:59:03 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:59:03 INFO  tests.TestBase - ================================================================
+01:59:03 INFO  tests.TestBase - Method registrationPositive is started
+01:59:03 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:59:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:59:09 INFO  manager.TestNgListener - Test registrationPositive started
+01:59:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+01:59:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+01:59:09 INFO  tests.TestBase - openRegistrationForm invoked
+01:59:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+01:59:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+01:59:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+01:59:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+01:59:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:59:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:59:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:59:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:59:09 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+01:59:09 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+01:59:09 INFO  tests.TestBase - fillRegistrationForm invoked
+01:59:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:59:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:59:09 INFO  tests.TestBase - submitButton invoked
+01:59:09 INFO  tests.TestBase - registrationPositive starts with credentials : vova3549@mail.com Volk1234$
+01:59:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[contains(text(),'success')]
+01:59:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[contains(text(),'success')] is found
+01:59:09 INFO  manager.TestNgListener - Test registrationPositive successful
+01:59:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:59:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:59:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:59:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:59:09 INFO  tests.TestBase - ================================================================
+01:59:09 INFO  tests.TestBase - Method registrationPositiveDTO is started
+01:59:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:59:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:59:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:59:10 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:59:10 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+01:59:10 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+01:59:10 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+01:59:10 INFO  tests.TestBase - openRegistrationForm invoked
+01:59:10 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+01:59:10 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+01:59:10 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+01:59:10 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+01:59:10 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:59:10 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:59:10 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:59:10 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:59:10 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+01:59:10 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+01:59:10 INFO  tests.TestBase - fillRegistrationForm invoked
+01:59:10 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:59:10 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:59:10 INFO  tests.TestBase - submitButton invoked
+01:59:10 INFO  tests.TestBase - registrationPositive starts with credentials : marr1234@mail.com Mara3456$1
+01:59:10 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[contains(text(),'success')]
+01:59:10 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[contains(text(),'success')] is found
+01:59:10 INFO  manager.TestNgListener - Test registrationPositiveDTO successful
+01:59:10 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:59:10 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:59:10 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:59:10 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:59:10 INFO  tests.TestBase - ================================================================
+01:59:10 INFO  tests.TestBase - Method registrationPositiveDTO is started
+01:59:10 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:59:10 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:59:10 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:59:11 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:59:11 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+01:59:11 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+01:59:11 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+01:59:11 INFO  tests.TestBase - openRegistrationForm invoked
+01:59:11 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+01:59:11 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+01:59:11 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+01:59:11 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+01:59:11 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:59:11 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:59:11 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:59:11 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:59:11 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+01:59:11 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+01:59:11 INFO  tests.TestBase - fillRegistrationForm invoked
+01:59:11 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:59:11 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:59:11 INFO  tests.TestBase - submitButton invoked
+01:59:11 INFO  tests.TestBase - registrationPositive starts with credentials : makr1234@mail.com Mara3456$2
+01:59:11 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[contains(text(),'success')]
+01:59:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[contains(text(),'success')] is found
+01:59:12 INFO  manager.TestNgListener - Test registrationPositiveDTO successful
+01:59:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:59:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:59:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:59:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:59:12 INFO  tests.TestBase - ================================================================
+01:59:12 INFO  tests.TestBase - Method registrationPositiveDTO is started
+01:59:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:59:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:59:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:59:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:59:12 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+01:59:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+01:59:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+01:59:12 INFO  tests.TestBase - openRegistrationForm invoked
+01:59:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+01:59:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+01:59:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+01:59:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+01:59:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:59:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:59:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:59:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:59:12 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+01:59:12 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+01:59:12 INFO  tests.TestBase - fillRegistrationForm invoked
+01:59:12 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:59:12 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:59:13 INFO  tests.TestBase - submitButton invoked
+01:59:13 INFO  tests.TestBase - registrationPositive starts with credentials : madr1234@mail.com Mara3456$3
+01:59:13 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[contains(text(),'success')]
+01:59:13 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[contains(text(),'success')] is found
+01:59:13 INFO  manager.TestNgListener - Test registrationPositiveDTO successful
+01:59:13 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:59:13 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:59:13 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:59:13 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:59:13 INFO  tests.TestBase - ================================================================
+01:59:13 INFO  tests.TestBase - Method registrationPositiveDTO is started
+01:59:13 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:59:13 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:59:13 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:59:13 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:59:13 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+01:59:13 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+01:59:13 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+01:59:13 INFO  tests.TestBase - openRegistrationForm invoked
+01:59:13 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+01:59:13 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+01:59:13 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+01:59:13 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+01:59:13 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:59:13 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:59:13 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:59:13 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:59:14 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+01:59:14 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+01:59:14 INFO  tests.TestBase - fillRegistrationForm invoked
+01:59:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:59:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:59:14 INFO  tests.TestBase - submitButton invoked
+01:59:14 INFO  tests.TestBase - registrationPositive starts with credentials : matr1234@mail.com Mara3456$4
+01:59:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[contains(text(),'success')]
+01:59:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[contains(text(),'success')] is found
+01:59:14 INFO  manager.TestNgListener - Test registrationPositiveDTO successful
+01:59:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:59:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:59:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:59:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:59:14 INFO  tests.TestBase - ================================================================
+01:59:14 INFO  tests.TestBase - Method registrationPositiveDTO is started
+01:59:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:59:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:59:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+01:59:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+01:59:14 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+01:59:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+01:59:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+01:59:14 INFO  tests.TestBase - openRegistrationForm invoked
+01:59:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+01:59:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+01:59:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+01:59:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+01:59:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+01:59:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+01:59:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+01:59:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+01:59:14 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+01:59:14 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+01:59:15 INFO  tests.TestBase - fillRegistrationForm invoked
+01:59:15 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+01:59:15 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+01:59:15 INFO  tests.TestBase - submitButton invoked
+01:59:15 INFO  tests.TestBase - registrationPositive starts with credentials : masr1234@mail.com Mara3456$5
+01:59:15 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[contains(text(),'success')]
+01:59:15 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[contains(text(),'success')] is found
+01:59:15 INFO  manager.TestNgListener - Test registrationPositiveDTO successful
+01:59:15 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:59:15 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:59:15 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+01:59:15 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+01:59:15 INFO  tests.TestBase - ================================================================
+01:59:15 INFO  tests.TestBase - Method searchPositiveTest is started
+01:59:15 INFO  manager.WdListener - Start searching element ---> By.cssSelector: h1
+01:59:15 INFO  manager.WdListener - Element with locator ---> By.cssSelector: h1 is found
+01:59:16 INFO  manager.WdListener - Something went wrong!
+01:59:16 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:16 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:16 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3556.png
+01:59:16 INFO  manager.WdListener - Something went wrong!
+01:59:16 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:16 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:16 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3556.png
+01:59:17 INFO  manager.WdListener - Something went wrong!
+01:59:17 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:17 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:17 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3557.png
+01:59:18 INFO  manager.WdListener - Something went wrong!
+01:59:18 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:18 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:18 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3558.png
+01:59:18 INFO  manager.WdListener - Something went wrong!
+01:59:18 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:18 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:18 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3558.png
+01:59:19 INFO  manager.WdListener - Something went wrong!
+01:59:19 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:19 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:19 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3559.png
+01:59:20 INFO  manager.WdListener - Something went wrong!
+01:59:20 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:20 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:20 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3560.png
+01:59:20 INFO  manager.WdListener - Something went wrong!
+01:59:20 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:20 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:21 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3560.png
+01:59:21 INFO  manager.WdListener - Something went wrong!
+01:59:21 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:21 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:21 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3561.png
+01:59:22 INFO  manager.WdListener - Something went wrong!
+01:59:22 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:22 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:22 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3562.png
+01:59:22 INFO  manager.WdListener - Something went wrong!
+01:59:22 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:22 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:23 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3562.png
+01:59:23 INFO  manager.WdListener - Something went wrong!
+01:59:23 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:23 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:23 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3563.png
+01:59:24 INFO  manager.WdListener - Something went wrong!
+01:59:24 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:24 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:24 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3564.png
+01:59:24 INFO  manager.WdListener - Something went wrong!
+01:59:24 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:24 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:25 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3564.png
+01:59:25 INFO  manager.WdListener - Something went wrong!
+01:59:25 INFO  manager.WdListener - stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:25 INFO  manager.WdListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d4243c375cfbad7ef57f0fc6d5f85b
+01:59:25 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3565.png
+01:59:25 INFO  manager.TestNgListener - Test searchPositiveTest started
+01:59:25 INFO  tests.TestBase - ================================================================

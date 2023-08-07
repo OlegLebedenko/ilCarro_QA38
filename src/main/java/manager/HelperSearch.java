@@ -24,12 +24,13 @@ public class HelperSearch extends HelperBase{
     public boolean isSearchFormPresent() {
         return new WebDriverWait(wd, 10)
                 .until(ExpectedConditions.textToBePresentInElement
-                        (wd.findElement(By.cssSelector("h1")),"Find"));
+                        (wd.findElement(By.cssSelector("h2")),"data"));
 
 
     }
 
     public void fillSearchForm(String city,String dateFrom,String dateTo){
+        if(isSearchFormPresent() == false) return;
         fillCity(city);
     //    selectPeriodDays(dateFrom,dateTo);
     //    selectPeriodDaysDatePicker(dateFrom,dateTo);

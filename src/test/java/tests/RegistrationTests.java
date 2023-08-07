@@ -5,10 +5,7 @@ import manager.TestNgListener;
 import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import tests.TestBase;
 
 
@@ -23,7 +20,7 @@ public class RegistrationTests extends TestBase {
         }
     }
 
-    @Test(priority = 1)
+    @Test(groups = {"smoke", "positive"})
     public void registrationPositive(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
         User user = new User()
@@ -36,7 +33,7 @@ public class RegistrationTests extends TestBase {
         logger.info("openRegistrationForm invoked");
         app.getUser().fillRegistrationForm(user);
         logger.info("fillRegistrationForm invoked");
-        app.getUser().submitButton();
+        app.getUser().submitButtonType();
         logger.info("submitButton invoked");
         logger.info("registrationPositive starts with credentials : " + user.getEmail()
         + " " + user.getPassword());
@@ -44,7 +41,7 @@ public class RegistrationTests extends TestBase {
 
     }
 
-    @Test(priority = 2)
+    @Test(groups = {"negative"})
     public void registrationNegativeNameBlank(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
         User user = new User()
@@ -55,11 +52,11 @@ public class RegistrationTests extends TestBase {
 
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);
-        app.getUser().submitButton();
-     //   Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//h1[contains(text(),'failed')]")));
+        app.getUser().submitButtonClick();
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//h1[contains(text(),'failed')]")));
     }
 
-    @Test(priority = 3)
+    @Test(groups = {"negative"})
     public void registrationNegativeLastNameBlank(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
         User user = new User()
@@ -70,11 +67,11 @@ public class RegistrationTests extends TestBase {
 
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);
-        app.getUser().submitButton();
+        app.getUser().submitButtonClick();
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//h1[contains(text(),'failed')]")));
     }
 
-    @Test(priority = 4)
+    @Test(groups = {"negative"})
     public void registrationNegativeWrongEmail(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
         User user = new User()
@@ -85,14 +82,14 @@ public class RegistrationTests extends TestBase {
 
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);
-        app.getUser().submitButton();
+        app.getUser().submitButtonClick();
 
 
- //      Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[.='Wrong email format']")));
+       Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[.='Wrong email format']")));
 
     }
 
-    @Test
+    @Test(groups = {"negative"})
     public void registrationNegativeWrongPassword() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         User user = new User()
@@ -103,11 +100,13 @@ public class RegistrationTests extends TestBase {
 
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);
-        app.getUser().submitButton();
+        app.getUser().submitButtonClick();
+
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//div[contains(text(),'Password must')]")));
 
     }
 
-    @Test(dataProvider = "userDtoCsv", dataProviderClass = ProviderData.class)
+    @Test(groups = {"sanity", "positive"}, dataProvider = "userDtoCsv", dataProviderClass = ProviderData.class)
     public void registrationPositiveDTO(User user){
 //        int i = (int)(System.currentTimeMillis()/1000)%3600;
 //        User user = new User()
@@ -120,7 +119,7 @@ public class RegistrationTests extends TestBase {
         logger.info("openRegistrationForm invoked");
         app.getUser().fillRegistrationForm(user);
         logger.info("fillRegistrationForm invoked");
-        app.getUser().submitButton();
+        app.getUser().submitButtonType();
         logger.info("submitButton invoked");
         logger.info("registrationPositive starts with credentials : " + user.getEmail()
                 + " " + user.getPassword());
@@ -131,8 +130,12 @@ public class RegistrationTests extends TestBase {
     public void postcondition(){
         if(app.getUser().isElementPresent(By.xpath("//button[.='Ok']"))) {
             app.getUser().click(By.xpath("//button[.='Ok']"));
+            app.getUser().clickCheckBox();
          //      app.getUser().click(By.xpath("//button[@type='button']"));
         }
 
+
+
    }
+
 }

@@ -1,0 +1,50 @@
+20:54:26 INFO  manager.ApplicationManager - Tests start on Chrome
+20:54:29 INFO  tests.TestBase - Method registrationPositive is started
+20:54:29 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+20:54:34 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+20:54:34 INFO  manager.TestNgListener - Test registrationPositive started
+20:54:34 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+20:54:34 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+20:54:34 INFO  tests.TestBase - openRegistrationForm invoked
+20:54:34 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+20:54:34 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+20:54:34 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+20:54:34 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+20:54:34 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+20:54:34 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+20:54:34 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+20:54:34 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+20:54:34 INFO  tests.TestBase - fillRegistrationForm invoked
+20:54:34 INFO  manager.WdListener - Start searching element ---> By.xpath: //*[.="Yâ€™alla!"]
+20:54:39 INFO  manager.WdListener - Something went wrong!
+20:54:39 INFO  manager.WdListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[.="Yâ€™alla!"]"}
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2562eed09c6c29ba81c44fc71cbbc5a0
+*** Element info: {Using=xpath, value=//*[.="Yâ€™alla!"]}
+20:54:39 INFO  manager.WdListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[.="Yâ€™alla!"]"}
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2562eed09c6c29ba81c44fc71cbbc5a0
+*** Element info: {Using=xpath, value=//*[.="Yâ€™alla!"]}
+20:54:40 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3279.png
+20:54:40 INFO  manager.TestNgListener - Test registrationPositive failed : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[.="Yâ€™alla!"]"}
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2562eed09c6c29ba81c44fc71cbbc5a0
+*** Element info: {Using=xpath, value=//*[.="Yâ€™alla!"]}
+20:54:40 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+20:54:45 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+20:54:45 INFO  tests.TestBase - ================================================================

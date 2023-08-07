@@ -43,12 +43,13 @@ public class HelperUser extends HelperBase{
     }
 
     public void clickCheckBox(){
-        System.out.println("clickCheckBox");
+
+     //   System.out.println("clickCheckBox");
         //variant 1
-     //   click(By.cssSelector("label[for='terms-of-use']"));
+      // click(By.cssSelector("label[for='terms-of-use']"));
         //variant 2
         JavascriptExecutor js = (JavascriptExecutor) wd;
-        js.executeScript("document.querySelector('#terms-of-use').click();");
+        js.executeScript("document.querySelector('#terms-of-use').click()");
         //variant 3
 //        Rectangle rect = wd.findElement(By.cssSelector("div.checkbox-container")).getRect();
 //        int x = rect.getX() + 5;
@@ -61,6 +62,10 @@ public class HelperUser extends HelperBase{
     public void submitButton(){
 
         click(By.xpath("//*[.=\"Y’alla!\"]"));
+    }
+    public void submitButtonClick(){
+
+        wd.findElement(By.xpath("//button[@type='submit']")).click();
     }
     public void submitButtonType(){
 

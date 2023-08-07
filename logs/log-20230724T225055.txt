@@ -1,0 +1,151 @@
+22:50:56 INFO  manager.ApplicationManager - Tests start on Chrome
+22:50:58 INFO  tests.TestBase - Method registrationPositiveDTO is started
+22:50:58 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+22:51:03 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+22:51:03 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+22:51:03 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+22:51:03 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+22:51:03 INFO  tests.TestBase - openRegistrationForm invoked
+22:51:03 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+22:51:03 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+22:51:03 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+22:51:03 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+22:51:04 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+22:51:04 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+22:51:04 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+22:51:04 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+22:51:04 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+22:51:04 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+22:51:04 INFO  tests.TestBase - fillRegistrationForm invoked
+22:51:04 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+22:51:04 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+22:51:04 INFO  tests.TestBase - submitButton invoked
+22:51:04 INFO  tests.TestBase - registrationPositive starts with credentials : maro1234@mail.com Mara3456$1
+22:51:04 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[contains(text(),'success')]
+22:51:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[contains(text(),'success')] is found
+22:51:09 INFO  manager.TestNgListener - Test registrationPositiveDTO failed : java.lang.AssertionError: expected [true] but found [false]
+22:51:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+22:51:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+22:51:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+22:51:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+22:51:09 INFO  tests.TestBase - ================================================================
+22:51:09 INFO  tests.TestBase - Method registrationPositiveDTO is started
+22:51:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+22:51:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+22:51:14 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+22:51:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+22:51:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+22:51:14 INFO  tests.TestBase - openRegistrationForm invoked
+22:51:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+22:51:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+22:51:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+22:51:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+22:51:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+22:51:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+22:51:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+22:51:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+22:51:14 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+22:51:14 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+22:51:14 INFO  tests.TestBase - fillRegistrationForm invoked
+22:51:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+22:51:14 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+22:51:14 INFO  tests.TestBase - submitButton invoked
+22:51:14 INFO  tests.TestBase - registrationPositive starts with credentials : mako1234@mail.com Mara3456$2
+22:51:14 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[contains(text(),'success')]
+22:51:19 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[contains(text(),'success')] is found
+22:51:19 INFO  manager.TestNgListener - Test registrationPositiveDTO failed : java.lang.AssertionError: expected [true] but found [false]
+22:51:19 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+22:51:19 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+22:51:19 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+22:51:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+22:51:20 INFO  tests.TestBase - ================================================================
+22:51:20 INFO  tests.TestBase - Method registrationPositiveDTO is started
+22:51:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+22:51:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+22:51:25 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+22:51:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+22:51:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+22:51:25 INFO  tests.TestBase - openRegistrationForm invoked
+22:51:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+22:51:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+22:51:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+22:51:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+22:51:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+22:51:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+22:51:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+22:51:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+22:51:25 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+22:51:25 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+22:51:25 INFO  tests.TestBase - fillRegistrationForm invoked
+22:51:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+22:51:25 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+22:51:25 INFO  tests.TestBase - submitButton invoked
+22:51:25 INFO  tests.TestBase - registrationPositive starts with credentials : mado1234@mail.com Mara3456$3
+22:51:25 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[contains(text(),'success')]
+22:51:30 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[contains(text(),'success')] is found
+22:51:30 INFO  manager.TestNgListener - Test registrationPositiveDTO failed : java.lang.AssertionError: expected [true] but found [false]
+22:51:30 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+22:51:30 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+22:51:30 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+22:51:30 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+22:51:30 INFO  tests.TestBase - ================================================================
+22:51:30 INFO  tests.TestBase - Method registrationPositiveDTO is started
+22:51:30 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+22:51:35 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+22:51:35 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+22:51:35 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+22:51:35 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+22:51:35 INFO  tests.TestBase - openRegistrationForm invoked
+22:51:35 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+22:51:35 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+22:51:35 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+22:51:35 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+22:51:35 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+22:51:36 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+22:51:36 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+22:51:36 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+22:51:36 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+22:51:36 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+22:51:36 INFO  tests.TestBase - fillRegistrationForm invoked
+22:51:36 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+22:51:36 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+22:51:36 INFO  tests.TestBase - submitButton invoked
+22:51:36 INFO  tests.TestBase - registrationPositive starts with credentials : mato1234@mail.com Mara3456$4
+22:51:36 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[contains(text(),'success')]
+22:51:41 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[contains(text(),'success')] is found
+22:51:41 INFO  manager.TestNgListener - Test registrationPositiveDTO failed : java.lang.AssertionError: expected [true] but found [false]
+22:51:41 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+22:51:41 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+22:51:41 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+22:51:41 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+22:51:41 INFO  tests.TestBase - ================================================================
+22:51:41 INFO  tests.TestBase - Method registrationPositiveDTO is started
+22:51:41 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+22:51:46 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+22:51:46 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+22:51:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+22:51:46 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+22:51:46 INFO  tests.TestBase - openRegistrationForm invoked
+22:51:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+22:51:46 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+22:51:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+22:51:46 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+22:51:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+22:51:46 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+22:51:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+22:51:46 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+22:51:46 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+22:51:46 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+22:51:46 INFO  tests.TestBase - fillRegistrationForm invoked
+22:51:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+22:51:46 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+22:51:46 INFO  tests.TestBase - submitButton invoked
+22:51:46 INFO  tests.TestBase - registrationPositive starts with credentials : maso1234@mail.com Mara3456$5
+22:51:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[contains(text(),'success')]
+22:51:51 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[contains(text(),'success')] is found
+22:51:51 INFO  manager.TestNgListener - Test registrationPositiveDTO failed : java.lang.AssertionError: expected [true] but found [false]
+22:51:51 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+22:51:51 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+22:51:51 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+22:51:51 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+22:51:51 INFO  tests.TestBase - ================================================================

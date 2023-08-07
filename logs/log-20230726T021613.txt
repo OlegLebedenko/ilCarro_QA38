@@ -1,0 +1,29 @@
+02:16:14 INFO  manager.ApplicationManager - Tests start on Chrome
+02:16:17 INFO  tests.TestBase - Method registrationNegativeLastNameBlank is started
+02:16:17 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+02:16:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+02:16:22 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank started
+02:16:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+02:16:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+02:16:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+02:16:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+02:16:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+02:16:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+02:16:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+02:16:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+02:16:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+02:16:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+02:16:22 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+02:16:22 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+02:16:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+02:16:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+02:16:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //h1[contains(text(),'failed')]
+02:16:24 INFO  manager.WdListener - Element with locator ---> By.xpath: //h1[contains(text(),'failed')] is found
+02:16:24 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank successful
+02:16:24 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+02:16:24 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+02:16:24 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+02:16:24 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+02:16:24 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+02:16:24 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+02:16:24 INFO  tests.TestBase - ================================================================

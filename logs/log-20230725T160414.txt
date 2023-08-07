@@ -1,0 +1,53 @@
+16:04:15 INFO  manager.ApplicationManager - Tests start on Chrome
+16:04:17 INFO  tests.TestBase - Method loginPositiveTestProps is started
+16:04:17 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+16:04:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+16:04:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+16:04:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+16:04:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+16:04:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+16:04:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+16:04:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+16:04:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+16:04:22 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+16:04:27 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[.='Logged in success']
+16:04:27 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[.='Logged in success'] is found
+16:04:27 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+16:04:27 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+16:04:27 INFO  tests.TestBase - ================================================================
+16:04:27 INFO  tests.TestBase - Method loginPositiveTestThree is started
+16:04:27 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+16:04:27 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+16:04:27 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+16:04:27 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+16:04:27 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+16:04:27 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+16:04:27 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+16:04:27 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+16:04:27 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+16:04:27 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+16:04:27 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+16:04:27 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+16:04:32 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[.='Logged in success']
+16:04:32 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[.='Logged in success'] is found
+16:04:32 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+16:04:32 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+16:04:32 INFO  tests.TestBase - ================================================================
+16:04:32 INFO  tests.TestBase - Method loginPositiveTestTwo is started
+16:04:32 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+16:04:32 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+16:04:32 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+16:04:32 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+16:04:33 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Log in ']
+16:04:33 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Log in '] is found
+16:04:33 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+16:04:33 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+16:04:33 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+16:04:33 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+16:04:33 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+16:04:33 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+16:04:38 INFO  manager.WdListener - Start searching element ---> By.xpath: //h2[.='Logged in success']
+16:04:38 INFO  manager.WdListener - Element with locator ---> By.xpath: //h2[.='Logged in success'] is found
+16:04:38 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+16:04:38 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+16:04:38 INFO  tests.TestBase - ================================================================

@@ -1,0 +1,45 @@
+03:26:58 INFO  manager.ApplicationManager - Tests start on Chrome
+03:27:01 INFO  tests.TestBase - Method registrationNegativeNameBlank is started
+03:27:01 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+03:27:06 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+03:27:06 INFO  manager.TestNgListener - Test registrationNegativeNameBlank started
+03:27:06 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+03:27:06 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+03:27:06 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+03:27:06 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+03:27:07 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+03:27:07 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+03:27:07 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+03:27:07 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+03:27:07 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+03:27:07 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+03:27:07 INFO  manager.WdListener - Start searching element ---> By.cssSelector: div.checkbox-container
+03:27:07 INFO  manager.WdListener - Element with locator ---> By.cssSelector: div.checkbox-container is found
+03:27:07 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+03:27:07 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+03:27:07 INFO  manager.WdListener - Start searching element ---> By.xpath: //h1[contains(text(),'failed')]
+03:27:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //h1[contains(text(),'failed')] is found
+03:27:09 INFO  manager.TestNgListener - Test registrationNegativeNameBlank successful
+03:27:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+03:27:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+03:27:09 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+03:27:09 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+03:27:09 INFO  manager.WdListener - Start searching element ---> By.cssSelector: div.checkbox-container
+03:27:09 INFO  manager.WdListener - Element with locator ---> By.cssSelector: div.checkbox-container is found
+03:27:09 INFO  manager.WdListener - Something went wrong!
+03:27:09 INFO  manager.WdListener - move target out of bounds
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 382ea18dbc09d5bbb53253ea8e45915b
+03:27:09 INFO  manager.WdListener - org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 382ea18dbc09d5bbb53253ea8e45915b
+03:27:09 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1629.png
+03:27:09 INFO  tests.TestBase - ================================================================

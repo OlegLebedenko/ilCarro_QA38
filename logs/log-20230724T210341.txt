@@ -1,0 +1,25 @@
+21:03:43 INFO  manager.ApplicationManager - Tests start on Chrome
+21:03:45 INFO  tests.TestBase - Method registrationNegativeLastNameBlank is started
+21:03:45 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+21:03:50 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+21:03:50 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank started
+21:03:50 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+21:03:50 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+21:03:50 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+21:03:50 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+21:03:50 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+21:03:50 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+21:03:50 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+21:03:50 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+21:03:50 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+21:03:50 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+21:03:50 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+21:03:50 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+21:03:51 INFO  manager.WdListener - Start searching element ---> By.xpath: //h1[contains(text(),'failed')]
+21:03:52 INFO  manager.WdListener - Element with locator ---> By.xpath: //h1[contains(text(),'failed')] is found
+21:03:52 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank successful
+21:03:52 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+21:03:52 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+21:03:52 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+21:03:52 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+21:03:52 INFO  tests.TestBase - ================================================================

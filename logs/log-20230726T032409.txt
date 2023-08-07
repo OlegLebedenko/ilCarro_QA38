@@ -1,0 +1,198 @@
+03:24:10 INFO  manager.ApplicationManager - Tests start on Chrome
+03:24:13 INFO  tests.TestBase - Method registrationNegativeLastNameBlank is started
+03:24:13 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+03:24:18 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+03:24:18 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank started
+03:24:18 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+03:24:18 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+03:24:18 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+03:24:18 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+03:24:18 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+03:24:18 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+03:24:19 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+03:24:19 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+03:24:19 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+03:24:19 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+03:24:19 INFO  manager.WdListener - Start searching element ---> By.cssSelector: div.checkbox-container
+03:24:19 INFO  manager.WdListener - Element with locator ---> By.cssSelector: div.checkbox-container is found
+03:24:19 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+03:24:19 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+03:24:19 INFO  manager.WdListener - Start searching element ---> By.xpath: //h1[contains(text(),'failed')]
+03:24:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //h1[contains(text(),'failed')] is found
+03:24:20 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank successful
+03:24:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+03:24:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+03:24:20 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+03:24:20 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+03:24:21 INFO  manager.WdListener - Start searching element ---> By.cssSelector: div.checkbox-container
+03:24:21 INFO  manager.WdListener - Element with locator ---> By.cssSelector: div.checkbox-container is found
+03:24:21 INFO  manager.WdListener - Something went wrong!
+03:24:21 INFO  manager.WdListener - move target out of bounds
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a08112a00b96778a07818a67d8e2feb0
+03:24:21 INFO  manager.WdListener - org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a08112a00b96778a07818a67d8e2feb0
+03:24:21 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1461.png
+03:24:21 INFO  tests.TestBase - ================================================================
+03:24:21 INFO  tests.TestBase - Method registrationNegativeNameBlank is started
+03:24:21 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+03:24:26 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+03:24:26 INFO  manager.TestNgListener - Test registrationNegativeNameBlank started
+03:24:26 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+03:24:31 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+03:24:31 INFO  tests.TestBase - ================================================================
+03:24:31 INFO  tests.TestBase - Method registrationNegativeWrongEmail is started
+03:24:31 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+03:24:36 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+03:24:36 INFO  manager.TestNgListener - Test registrationNegativeWrongEmail started
+03:24:36 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+03:24:41 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+03:24:41 INFO  tests.TestBase - ================================================================
+03:24:41 INFO  tests.TestBase - Method registrationNegativeWrongPassword is started
+03:24:41 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+03:24:46 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+03:24:46 INFO  manager.TestNgListener - Test registrationNegativeWrongPassword started
+03:24:46 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+03:24:51 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+03:24:51 INFO  tests.TestBase - ================================================================
+03:24:51 INFO  tests.TestBase - Method registrationPositive is started
+03:24:51 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+03:24:56 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+03:24:56 INFO  manager.TestNgListener - Test registrationPositive started
+03:24:56 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+03:25:01 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+03:25:01 INFO  tests.TestBase - ================================================================
+03:25:01 INFO  tests.TestBase - Method registrationPositiveDTO is started
+03:25:01 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+03:25:06 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+03:25:06 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+03:25:06 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+03:25:11 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+03:25:11 INFO  tests.TestBase - ================================================================
+03:25:11 INFO  tests.TestBase - Method registrationPositiveDTO is started
+03:25:11 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+03:25:16 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+03:25:16 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+03:25:16 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+03:25:21 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+03:25:21 INFO  tests.TestBase - ================================================================
+03:25:21 INFO  tests.TestBase - Method registrationPositiveDTO is started
+03:25:21 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+03:25:26 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+03:25:26 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+03:25:26 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+03:25:26 INFO  manager.WdListener - Something went wrong!
+03:25:26 INFO  manager.WdListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a08112a00b96778a07818a67d8e2feb0
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+03:25:26 INFO  manager.WdListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a08112a00b96778a07818a67d8e2feb0
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+03:25:26 INFO  tests.TestBase - ================================================================
+03:25:26 INFO  tests.TestBase - Method registrationPositiveDTO is started
+03:25:26 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+03:25:26 INFO  manager.WdListener - Something went wrong!
+03:25:26 INFO  manager.WdListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a08112a00b96778a07818a67d8e2feb0
+*** Element info: {Using=xpath, value=//a[.=' Logout ']}
+03:25:26 INFO  manager.WdListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a08112a00b96778a07818a67d8e2feb0
+*** Element info: {Using=xpath, value=//a[.=' Logout ']}
+03:25:26 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+03:25:26 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+03:25:26 INFO  manager.WdListener - Something went wrong!
+03:25:26 INFO  manager.WdListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a08112a00b96778a07818a67d8e2feb0
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+03:25:26 INFO  manager.WdListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a08112a00b96778a07818a67d8e2feb0
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+03:25:26 INFO  tests.TestBase - ================================================================
+03:25:26 INFO  tests.TestBase - Method registrationPositiveDTO is started
+03:25:26 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+03:25:26 INFO  manager.WdListener - Something went wrong!
+03:25:26 INFO  manager.WdListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a08112a00b96778a07818a67d8e2feb0
+*** Element info: {Using=xpath, value=//a[.=' Logout ']}
+03:25:26 INFO  manager.WdListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a08112a00b96778a07818a67d8e2feb0
+*** Element info: {Using=xpath, value=//a[.=' Logout ']}
+03:25:26 INFO  manager.TestNgListener - Test registrationPositiveDTO started
+03:25:26 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+03:25:26 INFO  manager.WdListener - Something went wrong!
+03:25:26 INFO  manager.WdListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a08112a00b96778a07818a67d8e2feb0
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+03:25:26 INFO  manager.WdListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.102, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\joker\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a08112a00b96778a07818a67d8e2feb0
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+03:25:26 INFO  tests.TestBase - ================================================================

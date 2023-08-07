@@ -1,0 +1,163 @@
+14:00:08 INFO  manager.ApplicationManager - Tests start on Firefox
+14:00:11 INFO  tests.TestBase - Method registrationNegativeLastNameBlank is started
+14:00:11 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+14:00:16 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+14:00:16 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank started
+14:00:16 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+14:00:16 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+14:00:16 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+14:00:16 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+14:00:16 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+14:00:16 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+14:00:16 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+14:00:16 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+14:00:16 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+14:00:16 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+14:00:16 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+14:00:16 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+14:00:17 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+14:00:22 INFO  manager.WdListener - Something went wrong!
+14:00:22 INFO  manager.WdListener - Unable to locate element: //button[@type='submit']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4084, moz:profile: C:\Users\joker\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4ce11e5-7d4a-4086-b602-8559cd4dfec2
+*** Element info: {Using=xpath, value=//button[@type='submit']}
+14:00:22 INFO  manager.WdListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@type='submit']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4084, moz:profile: C:\Users\joker\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4ce11e5-7d4a-4086-b602-8559cd4dfec2
+*** Element info: {Using=xpath, value=//button[@type='submit']}
+14:00:22 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-22.png
+14:00:22 INFO  manager.TestNgListener - Test registrationNegativeLastNameBlank failed : org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@type='submit']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4084, moz:profile: C:\Users\joker\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4ce11e5-7d4a-4086-b602-8559cd4dfec2
+*** Element info: {Using=xpath, value=//button[@type='submit']}
+14:00:22 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+14:00:27 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+14:00:27 INFO  tests.TestBase - ================================================================
+14:00:27 INFO  tests.TestBase - Method registrationNegativeNameBlank is started
+14:00:27 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+14:00:32 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+14:00:32 INFO  manager.TestNgListener - Test registrationNegativeNameBlank started
+14:00:32 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+14:00:32 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+14:00:32 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+14:00:32 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+14:00:32 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+14:00:32 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+14:00:32 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+14:00:32 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+14:00:32 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+14:00:32 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+14:00:32 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+14:00:32 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+14:00:33 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+14:00:38 INFO  manager.WdListener - Something went wrong!
+14:00:38 INFO  manager.WdListener - Unable to locate element: //button[@type='submit']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4084, moz:profile: C:\Users\joker\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4ce11e5-7d4a-4086-b602-8559cd4dfec2
+*** Element info: {Using=xpath, value=//button[@type='submit']}
+14:00:38 INFO  manager.WdListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@type='submit']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4084, moz:profile: C:\Users\joker\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4ce11e5-7d4a-4086-b602-8559cd4dfec2
+*** Element info: {Using=xpath, value=//button[@type='submit']}
+14:00:38 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-38.png
+14:00:38 INFO  manager.TestNgListener - Test registrationNegativeNameBlank failed : org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@type='submit']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4084, moz:profile: C:\Users\joker\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4ce11e5-7d4a-4086-b602-8559cd4dfec2
+*** Element info: {Using=xpath, value=//button[@type='submit']}
+14:00:38 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+14:00:43 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+14:00:43 INFO  tests.TestBase - ================================================================
+14:00:43 INFO  tests.TestBase - Method registrationNegativeWrongEmail is started
+14:00:43 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+14:00:48 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+14:00:48 INFO  manager.TestNgListener - Test registrationNegativeWrongEmail started
+14:00:48 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+14:00:48 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+14:00:48 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+14:00:48 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+14:00:48 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+14:00:48 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+14:00:48 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+14:00:48 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+14:00:48 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+14:00:48 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+14:00:48 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+14:00:48 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+14:00:48 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+14:00:53 INFO  manager.WdListener - Something went wrong!
+14:00:53 INFO  manager.WdListener - Unable to locate element: //button[@type='submit']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4084, moz:profile: C:\Users\joker\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4ce11e5-7d4a-4086-b602-8559cd4dfec2
+*** Element info: {Using=xpath, value=//button[@type='submit']}
+14:00:53 INFO  manager.WdListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@type='submit']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4084, moz:profile: C:\Users\joker\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4ce11e5-7d4a-4086-b602-8559cd4dfec2
+*** Element info: {Using=xpath, value=//button[@type='submit']}
+14:00:53 INFO  manager.WdListener - This is a link to screenshot with error ---> src/test/screenshots/screen-53.png
+14:00:53 INFO  manager.TestNgListener - Test registrationNegativeWrongEmail failed : org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@type='submit']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SQU6JC', ip: '192.168.43.58', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4084, moz:profile: C:\Users\joker\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4ce11e5-7d4a-4086-b602-8559cd4dfec2
+*** Element info: {Using=xpath, value=//button[@type='submit']}
+14:00:53 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+14:00:59 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+14:00:59 INFO  tests.TestBase - ================================================================
+14:00:59 INFO  tests.TestBase - Method registrationNegativeWrongPassword is started
+14:00:59 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Logout ']
+14:01:04 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Logout '] is found
+14:01:04 INFO  manager.TestNgListener - Test registrationNegativeWrongPassword started
+14:01:04 INFO  manager.WdListener - Start searching element ---> By.xpath: //a[.=' Sign up ']
+14:01:04 INFO  manager.WdListener - Element with locator ---> By.xpath: //a[.=' Sign up '] is found
+14:01:04 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='name']
+14:01:04 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='name'] is found
+14:01:04 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='lastName']
+14:01:04 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='lastName'] is found
+14:01:04 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='email']
+14:01:04 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='email'] is found
+14:01:04 INFO  manager.WdListener - Start searching element ---> By.xpath: //input[@id='password']
+14:01:04 INFO  manager.WdListener - Element with locator ---> By.xpath: //input[@id='password'] is found
+14:01:04 INFO  manager.WdListener - Start searching element ---> By.cssSelector: label[for='terms-of-use']
+14:01:04 INFO  manager.WdListener - Element with locator ---> By.cssSelector: label[for='terms-of-use'] is found
+14:01:05 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[@type='submit']
+14:01:05 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[@type='submit'] is found
+14:01:06 INFO  manager.WdListener - Start searching element ---> By.xpath: //div[contains(text(),'Password must')]
+14:01:06 INFO  manager.WdListener - Element with locator ---> By.xpath: //div[contains(text(),'Password must')] is found
+14:01:06 INFO  manager.TestNgListener - Test registrationNegativeWrongPassword successful
+14:01:06 INFO  manager.WdListener - Start searching element ---> By.xpath: //button[.='Ok']
+14:01:11 INFO  manager.WdListener - Element with locator ---> By.xpath: //button[.='Ok'] is found
+14:01:11 INFO  tests.TestBase - ================================================================

@@ -4,6 +4,7 @@ import models.Car;
 import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -18,7 +19,7 @@ public class AddNewCar extends TestBase {
 
     }
 
-    @Test
+    @Test(groups = {"regress", "positive"})
     public void addNewCarPositive(){
 
       int i = (int) (System.currentTimeMillis()/1000)%3600;
@@ -43,9 +44,11 @@ public class AddNewCar extends TestBase {
 
     }
 
-//    @AfterMethod
-//    public void postcondition(){
-//
-//    }
+    @AfterMethod(alwaysRun = true)
+    public void postcondition(){
+        app.getCar().click(By.xpath("//button[@type='button']"));
+        app.getUser().logout();
+
+    }
 
 }
